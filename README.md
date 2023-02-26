@@ -1,3 +1,13 @@
+# Red and Green Balls
+
+ #### You have a square grid (NxN). Each cell of the grid has either a red ball or a green ball. Your job is to arrange the balls in such a way that all the red balls are either on or below the main diagonal. The main diagonal starts from cell 1x1 and ends at cell NxN. You have only one move which is to swap adjacent rows. You need to achieve the final arrangement in minimal number of moves. If it is not possible to come to a resolution by swapping then print -1
+
+
+##### Input:
+    First line of input is the number of rows in grid. Rest are the lines in the grid
+##### Ouput:
+    Minimum number of moves
+
 
 
 First, let's consider the input:
