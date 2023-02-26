@@ -4,11 +4,21 @@
 
 
 ##### Input:
+
     First line of input is the number of rows in grid. Rest are the lines in the grid
+    5
+    GGRRG
+    GRRRG
+    RGGGG
+    RGGGG
+    RGRGG
+    
 ##### Ouput:
     Minimum number of moves
+    6
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Solution
 
 First, let's consider the input:
 
@@ -172,4 +182,54 @@ If the sum of the values in `redCount[]` is not negative, the code prints the nu
 ```java
 System.out.println(swap);
 
+```
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+```
+5
+GGRRG
+GRRRG
+RGGGG
+RGGGG
+RGRGG
+Original Array: [-3, -2, 2, 3, 2]
+GGRRG
+RGGGG
+GRRRG
+RGGGG
+RGRGG
+Original Array: [-3, 1, -1, 3, 2]
+GGRRG
+RGGGG
+RGGGG
+GRRRG
+RGRGG
+Original Array: [-3, 1, 2, 0, 2]
+RGGGG
+GGRRG
+RGGGG
+GRRRG
+RGRGG
+Original Array: [0, -2, 2, 0, 2]
+RGGGG
+RGGGG
+GGRRG
+GRRRG
+RGRGG
+Original Array: [0, 1, -1, 0, 2]
+RGGGG
+RGGGG
+GGRRG
+RGRGG
+GRRRG
+Original Array: [0, 1, -1, 1, 1]
+RGGGG
+RGGGG
+RGRGG
+GGRRG
+GRRRG
+Original Array: [0, 1, 0, 0, 1]
+6
 ```
